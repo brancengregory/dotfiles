@@ -1,7 +1,18 @@
 #!/usr/bin/env bash
 
 # Make vim the default editor.
-export EDITOR='vim';
+export EDITOR='micro';
+
+# Goland paths
+export GOPATH=$HOME/Documents/Golang
+export GOROOT=/usr/local/opt/go/libexec
+export GOBIN=~/Documents/Golang/bin
+
+# PHP config
+export PHP_AUTOCONF='$(which autoconf)'
+
+# Web Home
+export WWW_HOME="https://searx.dk"
 
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;
